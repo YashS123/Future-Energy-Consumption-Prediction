@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height:1500px;
+    width:800px;
+    background: linear-gradient(to bottom right, #f8345f, #963288,#6c34a2 );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    height: 50px;
+    width:189.9%;
+    background-color: wheat;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 80px 100px 110px 120px 200px 5px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.hf{
+    flex: 1 1 auto;
+}
+
+
+h1 {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.form-control {
+    height: 40px;
+    width: 190px;
+    border: rebeccapurple solid 5px;
+    border-radius: 15px;
+    padding-left: 2px;
+}
+
+.btn {
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(17, 242, 17);
+    color: rgb(0, 68, 255);
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px rgb(0, 68, 255) solid;
+}
+
+.smallhead {
+    font-size: 25px;
+}
+a:hover{
+    color:darkgreen;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.grid2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 490px 500px 500px;
+    column-gap: 10px;
+    margin-left:8px;
+}
+
+.profile {
+    width: 490px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    margin-right: 15px;
+    background: linear-gradient(to right, #25c193, #25bab5);
+    margin-bottom: 50px;
+}
+
+.profile-picture {
+    width: 460px;
+    height: 300px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.name {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 140px;
+    margin-bottom: 5px;
+}
+
+
+.name1 {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.name2 {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+.mainh {
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: right;
+    padding-left: 5px;
+}

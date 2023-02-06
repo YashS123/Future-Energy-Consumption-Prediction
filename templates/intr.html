@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Consumption Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/intro1.css')}}" type="text/css">
+    <link rel="icon" href="https://media.istockphoto.com/vectors/green-eco-power-plug-vector-id951820442?k=20&m=951820442&s=612x612&w=0&h=ENQs0392xHOaxoI-zEEEYeSN_Bx_DTyiNSgG1jUEgPY=" type="image/x-icon">
+</head>
+<body>
+    <video src="{{url_for('static',filename='css/img/ducib.mp4')}}" autoplay loop muted plays-inline class="back-video"></video>
+    <div class="overlay">
+        <h2 class="neonText">EEE4001:Energy Audit and Conservation</h2>
+        <h2 class="neonText1">Fact : Home electronics consume energy even<br> when switched off! Approximately, 75%<br>of electricity used to power home<br> electronics
+        is consumed while the <br>products are off !</h2>
+        <br>
+        <a href="{{ url_for('index') }}">
+            <div><i class="fa-solid fa-chevrons-right"></i><input type="submit" class="btn" value="Click here to continue to our website >>"></div>
+            
+        </a>
+    </div>
+    <div class="line">
+
+    </div>
+
+</body>
+</html>

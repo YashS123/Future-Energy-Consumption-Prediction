@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Consumption Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/research1.css')}}" type="text/css">
+    <link rel="icon"
+        href="https://media.istockphoto.com/vectors/green-eco-power-plug-vector-id951820442?k=20&m=951820442&s=612x612&w=0&h=ENQs0392xHOaxoI-zEEEYeSN_Bx_DTyiNSgG1jUEgPY="
+        type="image/x-icon">
+    <script src="https://kit.fontawesome.com/df7ee7edbf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="grid">
+                <div class="hf"><a href="http://127.0.0.1:5000/" style="text-decoration: none;"><i
+                            class="fa-solid fa-house"></i>Home</a></div>
+                <div class="hf"><a href="http://127.0.0.1:5000/ack" style="text-decoration: none;"><i
+                            class="fa-solid fa-circle-info"></i>About Us</a></div>
+                <div class="hf"><a href="http://127.0.0.1:5000/index" style="text-decoration: none;"><i
+                            class="fa-solid fa-magnifying-glass"></i> Prediction</a></div>
+                <div class="hf"><a href="http://127.0.0.1:5000/res" style="text-decoration: none;"><i
+                            class="fa-solid fa-book"></i></i> Our Analysis</a></div>
+                <div class="hf"><a href="http://127.0.0.1:5000/data" style="text-decoration: none;"><i class="fa-solid fa-database"></i>
+                        Dataset</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="box2">
+        <br>
+        <h1>Our Analysis:</h1>
+        <div class="grid2">
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/2019.png')}}">
+                <p class="name1">Top 10 states that consumed maximum power in 2019.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/2020.png')}}">
+                <p class="name1">Top 10 states that consumed maximum power in 2020.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/min2019.png')}}">
+                <p class="name1">Top 10 states that consumed least power in 2019.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/min2020.png')}}">
+                <p class="name1">Top 10 states that consumed maximum power in 2020.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/maxin2019.png')}}">
+                <p class="name1">Maximum rise in consumption is in month of July 2019.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/max20.png')}}">
+                <p class="name1">Maximum rise in consumption is in month of Jan 2020.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/least.PNG')}}">
+                <p class="name1">Least value reached.</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/lock.png')}}">
+                <p class="name1">Compare the values in march-may 2019(before lock down) and march-may 2020 (during lockdown)</p>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="{{url_for('static',filename='css/img/high.png')}}">
+                <p class="name1">Highest value reached.</p>
+            </div>
+    </div>
+</body>
+
+</html>

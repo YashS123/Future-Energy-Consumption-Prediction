@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+video {
+    min-width: 100vw;
+    height:48.3vw;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    margin-left:-60%;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+.neonText {
+    color: #fff;
+    font-size: 35px;
+    text-shadow: 0 0 7px rgb(250, 0, 171), 0 0 10px rgb(250, 0, 171),0 0 rgb(250, 0, 171), 0 0 42px rgb(250, 0, 171),0 0 82px rgb(250, 0, 171), 0 0 92px rgb(250, 0, 171);
+    margin-left: 12%;
+}
+.neonText1 {
+    color: #fff;
+    text-shadow: 0 0 7px rgb(250, 0, 171), 0 0 10px rgb(250, 0, 171), 0 0 rgb(250, 0, 171), 0 0 42px rgb(250, 0, 171), 0 0 82px rgb(250, 0, 171), 0 0 92px rgb(250, 0, 171);
+    margin-left: 4.2%;
+}
+.btn{
+    height: 50px;
+    width:300px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(17, 242, 17);
+    color:rgb(0, 68, 255);
+    font-size: 15px;
+    font-weight: bold ;
+    border:2px rgb(0, 68, 255) solid;
+    margin-left:-60px;
+    
+}
+.line{
+    height:5.8px;
+    margin-top: -4px;
+    padding-top: 5px;
+
+    background: linear-gradient(to left,navy,black);
+}
